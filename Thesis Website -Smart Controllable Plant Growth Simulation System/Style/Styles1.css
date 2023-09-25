@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-image: url('https://wallpapercave.com/wp/wp6897504.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow:hidden;
+}
+
+.Yes{
+    padding: 15;
+    background-color: #CEEDC7;
+    font-size: 35;
+    text-align: center;
+    color:#5F7161;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Yes1{
+    padding: 15px;
+    background-color: #CEEDC7;
+    font-size: 30px;
+    text-align: center;
+    color:#5F7161;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125);
+}
+
+.wrapper .title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color:#5F7161;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    color: #5F7161;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .btn{
+    margin: 0 auto;
+    display: block;
+    width: 65%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #6D8B74;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+.wrapper .form .input_field .btn:hover{
+    background: #6D8B74;
+}
+
+.wrapper .form .input_field2{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field2 label{
+    color: #5F7161;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field3{
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field3 label{
+    color: #5F7161;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .btn1{
+    margin: 0 auto;
+    display: block;
+    width: 45%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    background: #6D8B74;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.wrapper .form .input_field:last-child{
+    margin-bottom: 0;
+}
+
+.wrapper .form .input_field .btn1:hover{
+    background: #6D8B74;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+ 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .signup_link{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #6D8B74;
+  }
+  
+  .signup_link a{
+    color: #1572A1;
+    text-decoration: none;
+  }
+  
+  .signup_link a:hover{
+    text-decoration: underline;
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+  }
+
+

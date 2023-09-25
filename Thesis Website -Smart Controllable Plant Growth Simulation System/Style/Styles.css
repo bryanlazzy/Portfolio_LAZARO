@@ -1,0 +1,185 @@
+/*For toggle pass*/
+/*End*/
+
+body{
+  background-image: url('https://wallpapercave.com/wp/wp6897504.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  height: 100vh;
+  overflow:hidden;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  border-radius: 10px;
+}
+
+.center2{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.label2{
+  text-align:left;
+  width:150px;
+  display:block;
+  float:left;
+  clear:right;
+  font-size:18;
+}
+.center h1{
+  color:#5F7161;
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #5F7161;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+form .txt_field{
+  position: relative;
+  border-bottom: 2px solid #5F7161;
+  margin: 30px 0;
+}
+
+.txt_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.txt_field label{
+  top: 50%;
+  left: 5px;
+  color: #5F7161;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s
+}
+
+.forgot_pass{
+  text-align: center;
+  font-size: 16px;
+  color: #6D8B74;
+}
+
+.forgot_pass a{
+  color: #1572A1;
+  text-decoration: none;
+}
+
+.forgot_pass a:hover{
+  text-decoration: underline;
+}
+
+.pass{
+  margin: -5px 0 20px 5px;
+  color: #a6a6a6;
+  cursor: pointer;
+}
+
+.pass:hover{
+  text-decoration: underline;
+}
+
+input[type="submit"]{
+  width: 100%;
+  height: 50px;
+  border: 1px solid;
+  background: #6D8B74;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover{
+  border-color: #1572A1;
+  transition: .5s;
+}
+
+.signup_link{
+  margin: 30px 0;
+  text-align: center;
+  font-size: 16px;
+  color: #6D8B74;
+}
+
+.signup_link a{
+  color: #1572A1;
+  text-decoration: none;
+}
+
+.signup_link a:hover{
+  text-decoration: underline;
+}
+
+.btn{
+  margin: 0 auto;
+  display: block;
+  width: 10px;
+  padding: 8px 10px;
+  font-size: 15px;
+  border: 0;
+  background: #6D8B74;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  outline: none;
+  }
+
+  .btn:hover{
+  background: #6D8B74;
+  }
+
+  .signup_link2{
+    margin: 30px 0;
+    text-align:right;
+    font-size: 16px;
+    color: #6D8B74;
+  }
+  
+  .signup_link2 a{
+    color: #1572A1;
+    text-decoration: none;
+  }
+  
+  .signup_link2 a:hover{
+    text-decoration: underline;
+  }
+
+  .Yes{
+    padding: 15;
+    font-size: 29;
+    text-align: center;
+    color:#5F7161;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Yes8{
+  padding: 15;
+  font-size: 15;
+  text-align: center;
+  margin-left: 30%;
+  color:#5F7161;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
